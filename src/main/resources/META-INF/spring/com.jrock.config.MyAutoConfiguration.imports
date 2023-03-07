@@ -1,6 +1,0 @@
-com.jrock.config.autoconfig.TomcatWebServerConfig
-com.jrock.config.autoconfig.JettyWebServerConfig
-com.jrock.config.autoconfig.DispacherServletConfig
-com.jrock.config.autoconfig.PropertyPlaceHolderConfig
-com.jrock.config.autoconfig.PropertyPostProcessorConfig
-com.jrock.config.autoconfig.DataSourceConfig
