@@ -3,6 +3,8 @@ package com.jrock.tobyspringboot;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.swing.plaf.SpinnerUI;
+
 @RestController
 public class HelloController {
 
@@ -20,4 +22,8 @@ public class HelloController {
         return helloService.sayHello(name);
     }
 
+    @GetMapping("/count")
+    public String count(String name) {
+        return name + ":" + helloService.countOf(name);
+    }
 }
